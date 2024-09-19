@@ -1,6 +1,7 @@
-import { ContadorComponent } from "../ContadorComponent/ContadorComponent";
-import { FormularioComponent } from "../FormularioComponent/FormularioComponent";
-import { UsuariosComponent } from "../UsuariosComponent/UsuariosComponent";
+// import { ContadorComponent } from "../ContadorComponent/ContadorComponent";
+// import { FormularioComponent } from "../FormularioComponent/FormularioComponent";
+// import { UsuariosComponent } from "../UsuariosComponent/UsuariosComponent";
+import { CalculosPesados } from "../CalculosPesados/CalculosPesados";
 
 export const HooksApp = () => {
     return(
@@ -9,7 +10,8 @@ export const HooksApp = () => {
             <hr />
             {/* <ContadorComponent></ContadorComponent> */}
             {/* <FormularioComponent></FormularioComponent> */}
-            <UsuariosComponent></UsuariosComponent>
+            {/* <UsuariosComponent></UsuariosComponent> */}
+            <CalculosPesados></CalculosPesados>
         </>
     );
 }
