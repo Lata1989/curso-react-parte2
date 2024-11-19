@@ -1,7 +1,9 @@
 // import { ContadorComponent } from "../ContadorComponent/ContadorComponent";
 // import { FormularioComponent } from "../FormularioComponent/FormularioComponent";
 // import { UsuariosComponent } from "../UsuariosComponent/UsuariosComponent";
-import { CalculosPesados } from "../CalculosPesados/CalculosPesados";
+// import { CalculosPesados } from "../CalculosPesados/CalculosPesados";
+// import { CallbackComponent } from "../CallbackComponent/CallbackComponent";
+import { ListaTareasReducer } from "../ListaTareasReducer/ListaTareasReducer";
 
 export const HooksApp = () => {
     return(
@@ -11,7 +13,9 @@ export const HooksApp = () => {
             {/* <ContadorComponent></ContadorComponent> */}
             {/* <FormularioComponent></FormularioComponent> */}
             {/* <UsuariosComponent></UsuariosComponent> */}
-            <CalculosPesados></CalculosPesados>
+            {/* <CalculosPesados></CalculosPesados> */}
+            {/* <CallbackComponent></CallbackComponent> */}
+            <ListaTareasReducer></ListaTareasReducer>
         </>
     );
 }
